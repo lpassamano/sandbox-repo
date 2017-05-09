@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require_relative "Chaz_tests.rb"
+
+roster = [1212, 2575, 6598, 8725, 6487, 2034, 4589, 4269, 4712, 3698, 2178, 4598, 4562, 4528, 4569, 5841]
+tests_received = [1212, 2575, 8725, 6487, 2034, 4589, 4269, 3698, 4598, 4562, 4569, 5841]
+
+check_roster(roster, tests_received)
